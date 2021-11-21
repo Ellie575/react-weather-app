@@ -4,7 +4,6 @@ import axios from "axios";
 import FormattedDate from "./FormattedDate";
 
 export default function Weather(props) {
-  const [ready, setReady] = useState(false);
   const [weatherData, setWeatherData] = useState({ ready: false} );
   function handleResponse(response) {
     
