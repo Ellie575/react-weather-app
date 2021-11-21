@@ -1,5 +1,5 @@
 .Weather {
-    border: 1px solid black;
+    border: 1px solid #70757a;
     border-radius: 4px;
     color: #70757a;
     font-family: Google Sans,arial,sans-serif-medium,sans-serif;
@@ -14,6 +14,10 @@
     margin: 20px 0 0 0;
 }
 
+.Weather h2 {
+    color: black;
+}
+
 .Weather img {
     height: 64px;
     margin-top: unset;
@@ -26,10 +30,12 @@
     font-weight: 400px;
     font-size: 64px;
     line-height: 64px;
+    color: black;
 }
 
 .Weather .unit {
     text-align: top;
+    color: black;
 }
 
 .Weather ul {
