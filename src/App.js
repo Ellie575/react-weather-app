@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Weather />
+      <Weather defaultCity="New York"/>
       <p>
         This app was coded by Ellie Kubo and is open-sourced on{" "}
         <a
